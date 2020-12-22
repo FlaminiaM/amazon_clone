@@ -1,0 +1,92 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items:center;
+    background-color: #131921;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+.header__logo{
+    width:100px;
+    object-fit: contain;
+    margin:0 20px;
+    margin-top:18px;
+}
+
+.header__searchInput{
+    height:12px;
+    padding:10px;
+    border: none;
+    width:100%;
+    border-radius: 4px 0 0 4px;
+}
+
+.header__search{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+
+.header__searchIcon{
+    padding:5px;
+    height:22px !important;
+    background-color: #cd9042;
+    border-radius: 0 4px 4px 0;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header__optionLineOne{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header__optionLineTwo{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header__optionBasket{
+    display: flex;
+    align-items: center;
+    color:white;
+    margin-right: 10px;
+    padding-top: 3px;
+    position: relative;
+}
+
+.header_basketCount{
+    margin-left:10px;
+    margin-right: 10px;
+    left: 14px;
+    font-size: 18px;
+    line-height: 16px;
+    position: absolute;
+    left: 9px;
+    right: auto;
+    top: -2px;
+    color: #f08804;
+}
+
+.header__basketIcon{
+    width: 41px;
+    height: 28px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/02/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405938116_.png);
+    background-repeat: repeat-x;
+    background-position: -218px -337px;
+    left: 10px;
+    top: 11px;
+}

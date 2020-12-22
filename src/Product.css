@@ -1,0 +1,77 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 1;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding:20px;
+    max-height: 400px;
+    width:100%;
+    min-width: 100px;
+}
+
+.product__rating{
+    display: flex;
+    color: rgb(255,164,28);
+    
+}
+
+.product__info{
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.product__price{
+    margin-top:5px;
+}
+
+.product > button:hover{
+    cursor: pointer;
+}
+
+.product > button{
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+    border: 1px solid;
+    margin-top:10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    line-height: 29px;
+    width: 210px;
+    padding: 0 10px 0 11px;
+
+}
+
+.product > img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product__atbConfirmation.active{
+    opacity: 1;
+}
+
+.product__atbConfirmation{
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 30px;
+    opacity: 0;
+}
+
+.product__atbConfirmation i{
+    background-image: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIIcon-sprite_1x-e9434610f810a3a99b3f0e49c1b938c9d76628b8._V2_.png);
+    background-size: 400px 900px;
+    background-repeat: no-repeat;
+    height: 13px;
+    width: 14px;
+    position: relative;
+    left: -2px;
+    top: 2px;
+    display: inline-block;
+    background-position: -117px -130px;
+}
